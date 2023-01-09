@@ -1,4 +1,5 @@
-dd_tuple(tuple_a=(), tuple_b=()):
+#!/usr/bin/bash
+def add_tuple(tuple_a=(), tuple_b=()):
     if len(tuple_a) > 2:
         tuple_a = (tuple_a[0], tuple_a[1])
     if len(tuple_b) > 2:

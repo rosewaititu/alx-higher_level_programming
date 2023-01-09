@@ -1,4 +1,5 @@
-(sentence):
+#!/usr/bin/bash
+def multiple_returns(sentence):
     if len(sentence) == 0:
         i = len(sentence), None
         return i
